@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -7,7 +7,6 @@ android {
     buildToolsVersion configs.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.snow.frame"
         minSdkVersion configs.minSdkVersion
         targetSdkVersion configs.targetSdkVersion
         versionCode configs.versionCode
@@ -27,7 +26,4 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation project(path: ':LibCore')
-    implementation project(path: ':LibFramework')
 }

@@ -1,4 +1,4 @@
-rootProject.name='PlayAndroid'
+rootProject.name='KotlinCoreFrame'
 include ':app'
-include ':core'
-include ':framework'
+include ':LibCore'
+include ':LibFramework'

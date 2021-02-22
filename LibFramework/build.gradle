@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -7,7 +7,6 @@ android {
     buildToolsVersion configs.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.snow.frame"
         minSdkVersion configs.minSdkVersion
         targetSdkVersion configs.targetSdkVersion
         versionCode configs.versionCode
@@ -22,12 +21,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api des.kotlinVersion
+    api des.coreKtx
+    api des.appcompat
+    testImplementation des.junit
+    androidTestImplementation des.extJunit
+    androidTestImplementation des.espressoCore
 
-    implementation project(path: ':LibCore')
-    implementation project(path: ':LibFramework')
+    // Support库
+    api 'com.google.android.material:material:1.3.0'
+    api 'androidx.constraintlayout:constraintlayout:2.0.4'
+    api 'androidx.recyclerview:recyclerview:1.1.0'
+
+    // gson
+    api 'com.google.code.gson:gson:2.8.6'
+
+    // Log
+    api 'com.orhanobut:logger:2.2.0'
+
+    // 解决方法数量的限制问题
+    api 'androidx.multidex:multidex:2.0.1'
 }
