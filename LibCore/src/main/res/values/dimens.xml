@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbarHeight">44pt</dimen>
+    <dimen name="homeTabHeight">49pt</dimen>
+
+    <dimen name="elevation">5pt</dimen>
+
+    <dimen name="toastSize">14sp</dimen>
+
+    <dimen name="sp_8">8pt</dimen>
+    <dimen name="sp_9">9pt</dimen>
+    <dimen name="sp_10">10pt</dimen>
+    <dimen name="sp_11">11pt</dimen>
+    <dimen name="sp_12">12pt</dimen>
+    <dimen name="sp_13">13pt</dimen>
+    <dimen name="sp_14">14pt</dimen>
+    <dimen name="sp_15">15pt</dimen>
+    <dimen name="sp_16">16pt</dimen>
+    <dimen name="sp_17">17pt</dimen>
+    <dimen name="sp_18">18pt</dimen>
+    <dimen name="sp_19">19pt</dimen>
+    <dimen name="sp_20">20pt</dimen>
+    <dimen name="sp_21">21pt</dimen>
+    <dimen name="sp_22">22pt</dimen>
+    <dimen name="sp_23">23pt</dimen>
+    <dimen name="sp_24">24pt</dimen>
+    <dimen name="sp_25">25pt</dimen>
+    <dimen name="sp_26">26pt</dimen>
+    <dimen name="sp_27">27pt</dimen>
+    <dimen name="sp_28">28pt</dimen>
+    <dimen name="sp_29">29pt</dimen>
+    <dimen name="sp_30">30pt</dimen>
+</resources>

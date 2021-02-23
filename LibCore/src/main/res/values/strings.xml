@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">core</string>
+    <string name="state_empty">暂无数据</string>
+    <string name="state_error">网络连接失败</string>
 </resources>
