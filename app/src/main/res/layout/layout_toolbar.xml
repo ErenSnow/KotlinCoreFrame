@@ -28,7 +28,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/btnRight"
+        android:id="@+id/btnMenu"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/toolbarHeight"
         android:layout_gravity="end|center_vertical"
@@ -41,7 +41,7 @@
         android:visibility="gone" />
 
     <ImageView
-        android:id="@+id/imgRight"
+        android:id="@+id/imgMenu"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/toolbarHeight"
         android:layout_gravity="end|center_vertical"
