@@ -5,10 +5,12 @@ import android.graphics.drawable.GradientDrawable
 import android.view.View
 import com.snow.core.base.BaseActivity
 import com.snow.framework.extraFunction.value.dp
+import com.snow.framework.utils.shortToast
 
 class MainActivity : BaseActivity() {
 
     override fun initView() {
+        "哈哈哈".shortToast()
     }
 
     override fun initData() {
